@@ -9,7 +9,8 @@ import Nav from "./component/page/nav.jsx";
 
 function App(props) {
 	return (
-		<div>
+		<div className={"w-[100%]"}>
+
 			<Nav/>
 			<Routes>
 				<Route path="/home" element={<Home/>}/>
