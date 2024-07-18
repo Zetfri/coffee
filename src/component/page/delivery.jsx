@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Pricing(props) {
+function Delivery(props) {
     return (
         <div></div>
     );
 }
 
-export default Pricing;
+export default Delivery;

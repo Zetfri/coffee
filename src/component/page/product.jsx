@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Ouroffer(props) {
+function Product(props) {
     return (
         <div></div>
     );
 }
 
-export default Ouroffer;
+export default Product;

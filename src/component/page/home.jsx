@@ -2,9 +2,7 @@ import React from 'react';
 
 function Home(props) {
     return (
-        <div className={"w-100% h-screen"}>
-
-        </div>
+        <div></div>
     );
 }
 

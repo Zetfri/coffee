@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Pages(props) {
+function About(props) {
     return (
         <div></div>
     );
 }
 
-export default Pages;
+export default About;

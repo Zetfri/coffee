@@ -1,26 +1,26 @@
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import  {Route, Routes} from "react-router-dom";
 import Home from "./component/page/home.jsx";
-import Ouroffer from "./component/page/ouroffer.jsx";
-import Pages from "./component/page/pages.jsx";
-import PRICING from "./component/page/PRICING.jsx";
-import SHOP from "./component/page/SHOP.jsx";
 import Nav from "./component/page/nav.jsx";
+import About from "./component/page/about.jsx";
+import Product from "./component/page/product.jsx";
+import Delivery from "./component/page/delivery.jsx";
 
 function App(props) {
-	return (
-		<div className={"w-[100%]"}>
+    return (
+        <div>
+            <Nav/>
+            <Routes>
+                <Route path="/" element={<Home/>} >
+                    <Route path="/Delivery" element={<Delivery /> } />
+                    <Route path="/Product" element={<Product/>} />
+                    <Route path="/About" element={<About/>} />
+                </Route>
 
-			<Nav/>
-			<Routes>
-				<Route path="/home" element={<Home/>}/>
-				<Route path="/ouroffer" element={<Ouroffer/>}/>
-				<Route path="/pages" element={<Pages/>}/>
-				<Route path="/pricing" element={<PRICING/>}/>
-				<Route path="/shop" element={<SHOP/>}/>
-			</Routes>
-		</div>
-	);
+            </Routes>
+
+        </div>
+    );
 }
 
 export default App;
