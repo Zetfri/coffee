@@ -6,6 +6,7 @@ import Cart1 from "../../assets/Group 2.png"
 import Delivery from "./delivery.jsx";
 import Say from "../page/Footer.jsx"
 import Product from "./product.jsx";
+import About from "../page/about.jsx"
 import Coffe1 from "../../assets/hazelnut latte.png"
 import Coffee2 from "../../assets/img_product.png"
 function Home(props) {
@@ -86,7 +87,6 @@ function Home(props) {
                 </div>
             </div>
             <Delivery/>
-
         </div>
 
 

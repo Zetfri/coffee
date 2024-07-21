@@ -3,8 +3,11 @@ import Cup from "../../assets/coffee-cup 2.png"
 import Truck from "../../assets/food-truck 1.png"
 import About from "./about.jsx";
 import Product from "./product.jsx";
+import Say from "./say.jsx";
 function Delivery(props) {
     return (
+        <div>
+
         <div className="w-[100%] h-auto p-20">
             <h1 className="text-[32px] tracking-[4px] mb-10">How to use delivery <span>service</span></h1>
             <div className="cards flex justify-center items-center gap-16">
@@ -24,8 +27,11 @@ function Delivery(props) {
                     <p className="text-[18px]">Choose delivery service</p>
                 </div>
             </div>
-            <Product/>
+
         </div>
+            <About/>
+        </div>
+
     );
 }
 

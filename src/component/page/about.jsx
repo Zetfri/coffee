@@ -1,9 +1,14 @@
 import React from 'react';
 import Cup from "../../assets/Group 6.png"
+import Delivery from "./delivery.jsx";
+import Product from "./product.jsx";
 
 
 function About(props) {
     return (
+        <div>
+
+
         <div className="w-100% h-[484px] flex justify-center items-center mt-28 px-10 pb-[40px]" >
             <div className="left w-[50%]">
                 <img src={Cup} alt=""/>
@@ -15,6 +20,9 @@ function About(props) {
                     recipe and available in stores worldwide.</p>
                 <button className="bg-[#2F2105] text-[#F4AE26] w-[142px] h-[38px] rounded-[20px] px-2.5">Get your coffee</button>
             </div>
+
+        </div>
+            <Product/>
         </div>
 
     );

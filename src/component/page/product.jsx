@@ -10,6 +10,9 @@ import  Say from "../../component/page/say.jsx"
 import Footer from "./Footer.jsx";
 function Product(props) {
     return (
+        <div>
+
+
         <div className="w-[100%] h-screen p-16 mb-[400px] ">
                 <h1 className="text-[32px] mb-[50px]">Special menu for you</h1>
             <div className="cards flex justify-center items-center gap-16 flex-wrap">
@@ -86,6 +89,7 @@ function Product(props) {
                     </div>
                 </div>
             </div>
+        </div>
             <Say/>
         </div>
     );
