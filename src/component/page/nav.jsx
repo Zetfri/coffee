@@ -13,7 +13,7 @@ function Nav(props) {
                     <Link to='/Product'>Our Product</Link>
                     <Link to='/Delivery'>Delivery</Link>
                     <Link to='/Say'>Comments</Link>
-                    <Link to='/Say'>Feedback</Link>
+                    <Link to='/Footer'>Feedback</Link>
                 </div>
             </div>
         </div>

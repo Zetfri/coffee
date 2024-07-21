@@ -2,6 +2,7 @@ import React from 'react';
 import Cup from "../../assets/coffee-cup 2.png"
 import Truck from "../../assets/food-truck 1.png"
 import About from "./about.jsx";
+import Product from "./product.jsx";
 function Delivery(props) {
     return (
         <div className="w-[100%] h-auto p-20">
@@ -23,7 +24,7 @@ function Delivery(props) {
                     <p className="text-[18px]">Choose delivery service</p>
                 </div>
             </div>
-            <About/>
+            <Product/>
         </div>
     );
 }

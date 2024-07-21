@@ -7,6 +7,7 @@ import Capuchino from "../../assets/img_product (2).png"
 import Moccacino from "../../assets/img_product (3).png"
 import Waffle from "../../assets/img_product (4).png"
 import  Say from "../../component/page/say.jsx"
+import Footer from "./Footer.jsx";
 function Product(props) {
     return (
         <div className="w-[100%] h-screen p-16 mb-[400px] ">

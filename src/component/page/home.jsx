@@ -6,6 +6,8 @@ import Cart1 from "../../assets/Group 2.png"
 import Delivery from "./delivery.jsx";
 import Say from "../page/Footer.jsx"
 import Product from "./product.jsx";
+import Coffe1 from "../../assets/hazelnut latte.png"
+import Coffee2 from "../../assets/img_product.png"
 function Home(props) {
     return (
         <div className="w-full h-screen bg-[#F6EBDA] ">
@@ -23,10 +25,10 @@ function Home(props) {
                 </div>
 
             </div>
-            <div className={"w-[90%] h-[365px] rounded-[55px] bg-[#F9D9AA] flex justify-center items-center pb-20 mx-auto gap-10"}>
-                <div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px]"}>
+            <div className={"w-[95%] h-[365px] rounded-[55px] bg-[#F9D9AA] flex justify-center transform translate-y-[-20px] pb-20 mx-auto gap-10"}>
+                <div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
                     <img src={Cup} alt=""/>
-                    <div >
+                    <div>
                         <div className={"flex  px-2 justify-between"}>
                             <h2 className={"text-[24px] font-[600]"}>Vanilla Latte</h2>
                             <h2 className={"text-[24px] font-[600]"}>21 K</h2>
@@ -43,12 +45,12 @@ function Home(props) {
                             <img src={Cart1} alt="" className={"w-[30px] mt-1"}/>
                         </div>
                     </div>
-                </div><div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px]"}>
-                    <img src={Cup} alt=""/>
+                </div><div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
+                    <img src={Coffee2} alt=""/>
                     <div >
                         <div className={"flex  px-2 justify-between"}>
-                            <h2 className={"text-[24px] font-[600]"}>Vanilla Latte</h2>
-                            <h2 className={"text-[24px] font-[600]"}>21 K</h2>
+                            <h2 className={"text-[24px] font-[600]"}>Espresso</h2>
+                            <h2 className={"text-[24px] font-[600]"}>12 K</h2>
                         </div>
                         <div className={"flex items-center justify-between mt-2"}>
                             <div className={"mt-2 flex gap-4 px-2"}>
@@ -62,12 +64,12 @@ function Home(props) {
                             <img src={Cart1} alt="" className={"w-[30px] mt-1"}/>
                         </div>
                     </div>
-                </div><div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px]"}>
-                    <img src={Cup} alt=""/>
+                </div><div className={"w-[355px] h-[385px] border-[10px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
+                    <img src={Coffe1} alt=""/>
                     <div >
                         <div className={"flex  px-2 justify-between"}>
-                            <h2 className={"text-[24px] font-[600]"}>Vanilla Latte</h2>
-                            <h2 className={"text-[24px] font-[600]"}>21 K</h2>
+                            <h2 className={"text-[24px] font-[600]"}>Hazelnut Latte</h2>
+                            <h2 className={"text-[24px] font-[600]"}>23 K</h2>
                         </div>
                         <div className={"flex items-center justify-between mt-2"}>
                             <div className={"mt-2 flex gap-4 px-2"}>
@@ -84,8 +86,7 @@ function Home(props) {
                 </div>
             </div>
             <Delivery/>
-            <Product/>
-            <Say/>
+
         </div>
 
 
