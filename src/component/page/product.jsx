@@ -8,6 +8,7 @@ import Moccacino from "../../assets/img_product (3).png"
 import Waffle from "../../assets/img_product (4).png"
 import  Say from "../../component/page/say.jsx"
 import Footer from "./Footer.jsx";
+import {Link} from "react-router-dom";
 function Product(props) {
     return (
         <div>
@@ -25,7 +26,8 @@ function Product(props) {
                     </div>
                     <div className="bottom flex justify-center items-center gap-[130px]">
                         <p className="text-[#7E7D7A]">bread with meat and <br/> vegetables</p>
-                        <img src={Cart} alt=""/>
+                        <Link to='/Menu'><img src={Cart} alt=""/></Link>
+
                     </div>
                 </div>
                 <div
