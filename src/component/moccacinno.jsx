@@ -1,6 +1,6 @@
-import Coffe1e from "../assets/img_product.png";
+import Coffe1e from "../assets/img_product (3).png";
 
-function Milk() {
+function Moccacinno() {
     return (
         <div>
             <div
@@ -10,17 +10,17 @@ function Milk() {
                 </div>
                 <div className="right w-[50%] h-[100%] flex p-[10px] flex-col">
                     <div className="top flex justify-between">
-                        <h2 className={"text-[24px] font-[600]"}>Hot Milk</h2>
+                        <h2 className={"text-[24px] font-[600]"}>Moccacinno</h2>
 
                     </div>
                     <div className="top1 text-[24px] mt-2 text-justify  tracking-[-1px]">
-                        <p>Pop your cup with milk in the microwave for a few seconds before adding the coffee! Have a
-                            steam wand on your machine and fancy a classic milky coffee, like a latte or a cappuccino?
-                            You ideally want the milk somewhere between 60-70°C (140-160°F) - this is the optimum
-                            temperature to bring out milks natural sweetness.
+                        <p>This drink is similar to mocha—it includes espresso shots, steamed milk, and chocolate and
+                            cream as well. However, here, the inclusion of chocolate is the bare minimum. Typically,
+                            cocoa powder or chocolate syrup is sprinkled on the top, and that's all the chocolate you
+                            get in mochaccino.
                         </p>
                     </div>
-                    <div className="btn mt-6 ">
+                    <div className="btn mt-14 ">
                         <button
                             className="w-[400px] h-[40px]  flex justify-center items-center text-white bg-[#2F2105] active:bg-transparent active:border active:border-[#2F2105] active:text-[#2F2105] rounded-lg cursor-pointer">BUY
                             RIGHT NOW
@@ -32,4 +32,4 @@ function Milk() {
     );
 }
 
-export default Milk;
+export default Moccacinno;

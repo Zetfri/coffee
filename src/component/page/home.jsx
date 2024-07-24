@@ -12,13 +12,12 @@ import Coffee2 from "../../assets/img_product.png"
 import {Link} from "react-router-dom";
 
 function Home(props) {
-    return (
-        <div className="w-full h-screen bg-[#F6EBDA] ">
-            <div className="w-full h-screen flex">
-                <div className="w-1/2 h-screen flex  justify-center items-start pl-20 flex-col gap-8">
-                    <h2 className={"text-[50px] w-[500px]"}>Enjoy your <span
+    return (<div className="w-full h-[120vh] bg-[#F6EBDA]">
+            <div className="w-full h-screen flex sm:h-[300px]">
+                <div className="w-1/2 h-screen flex  justify-center items-start pl-52 flex-col gap-8 mt-[-100px] sm:pl-[20px] lg:mt-[-250px] lg:pl-[40px]">
+                    <h2 className={"text-[50px] sm:text-[30px] sm:w-[280px] w-[500px]"}>Enjoy your <span
                         className={"text-[#FF9028]"}>coffee</span> before your activity</h2>
-                    <p className={"text-[18px] text-[#7E7D7A] w-[400px]"}>Boost your productivity and build your mood
+                    <p className={"text-[18px] text-[#7E7D7A] w-[400px] sm:w-[340px]"}>Boost your productivity and build your mood
                         with a glass of coffee in the morning </p>
                     <button
                         className={"w-[170px] h-[46px] bg-[#2F2105] text-white rounded-[33px] flex items-center justify-center gap-2"}>
@@ -26,15 +25,15 @@ function Home(props) {
                         <img src={Cart} alt="" className="mt-1"/>
                     </button>
                 </div>
-                <div className="w-1/2 h-screen flex justify-end items-center " data-aos="fade-right">
-                    <img src={Coffee} alt="" className="w-[465px] h-[346px]  mr-28"/>
+                <div className="w-1/2 h-screen flex justify-end items-center mt-[-100px] lg:mt-[-240px]">
+                    <img src={Coffee} alt="" className="w-[465px] h-[346px]   mr-28 sm:hidden lg:block lg:mr-[20px]"/>
                 </div>
 
             </div>
             <div
-                className={"w-[95%] h-[365px] rounded-[55px] bg-[#F9D9AA] flex justify-center transform translate-y-[-20px] pb-20 mx-auto gap-10"}>
+                className={"w-[95%] h-[325px] mt-[-20px] rounded-[55px] bg-[#F9D9AA] flex justify-center pb-20 mx-auto gap-16 sm:flex-wrap sm:mt-[400px] sm:h-auto sm:gap-[200px] sm:bg-transparent sm:justify-center sm:items-center lg:flex-wrap lg:h-auto lg:gap-[200px]"}>
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] "}>
                     <img src={Cup} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between"}>
@@ -52,12 +51,11 @@ function Home(props) {
                             </div>
 
                             <Link to='/Coffee'><img src={Cart1} alt="" className={"w-[30px] mt-1"}/></Link>
-
                         </div>
                     </div>
-                </div>
+                </div   >
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px]"}>
                     <img src={Coffee2} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between"}>
@@ -78,7 +76,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] transform translate-y-[-80px]"}>
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] "}>
                     <img src={Coffe1} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between"}>

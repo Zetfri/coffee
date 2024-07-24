@@ -1,12 +1,12 @@
-import Coffe1e from "../assets/img_product.png";
+import Coffee from "../assets/img_product.png";
 
-function Milk() {
+function Cappucino() {
     return (
         <div>
             <div
                 className="w-[900px] border h-[500px] p-[20px] rounded-lg mx-auto mt-[10px] flex bg-[#F9D9AA]  justify-between items-center">
                 <div className="left w-[50%] h-[100%]">
-                    <img src={Coffe1e} alt="" className="w-[90%] h-[100%] rounded-lg"/>
+                    <img src={Coffee} alt="" className="w-[90%] h-[100%] rounded-lg"/>
                 </div>
                 <div className="right w-[50%] h-[100%] flex p-[10px] flex-col">
                     <div className="top flex justify-between">
@@ -32,4 +32,4 @@ function Milk() {
     );
 }
 
-export default Milk;
+export default Cappucino;

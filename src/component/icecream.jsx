@@ -1,4 +1,4 @@
-import Coffe1e from "../assets/img_product.png";
+import Coffe1e from "../assets/img_product (1).png";
 
 function Milk() {
     return (
@@ -10,17 +10,16 @@ function Milk() {
                 </div>
                 <div className="right w-[50%] h-[100%] flex p-[10px] flex-col">
                     <div className="top flex justify-between">
-                        <h2 className={"text-[24px] font-[600]"}>Hot Milk</h2>
+                        <h2 className={"text-[24px] font-[600]"}>Coffee Ice Cream</h2>
 
                     </div>
                     <div className="top1 text-[24px] mt-2 text-justify  tracking-[-1px]">
-                        <p>Pop your cup with milk in the microwave for a few seconds before adding the coffee! Have a
-                            steam wand on your machine and fancy a classic milky coffee, like a latte or a cappuccino?
-                            You ideally want the milk somewhere between 60-70°C (140-160°F) - this is the optimum
-                            temperature to bring out milks natural sweetness.
+                        <p>Once you have your ingredients and supplies together: Whisk together the cream, espresso,
+                            vanilla and sugar, heat in a heavy bottomed pan over medium low heat. While the mixture is
+                            heating over the stove, separate your egg whites from egg yolks and whip the egg yolks.
                         </p>
                     </div>
-                    <div className="btn mt-6 ">
+                    <div className="btn mt-24 ">
                         <button
                             className="w-[400px] h-[40px]  flex justify-center items-center text-white bg-[#2F2105] active:bg-transparent active:border active:border-[#2F2105] active:text-[#2F2105] rounded-lg cursor-pointer">BUY
                             RIGHT NOW

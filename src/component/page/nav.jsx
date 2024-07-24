@@ -4,16 +4,16 @@ import Logo from "/src/assets/logo_coffe.svg"
 
 function Nav(props) {
     return (
-        <div className="w-[100%] h-[100px  pb-10 bg-[#F6EBDA]">
-            <div className="flex items-center justify-center pt-11 gap-96  ">
-                <img src={Logo} alt=""/>
-                <div className="flex gap-16">
-                    <Link to='/'>Home</Link>
-                    <Link to='/About'>About us</Link>
-                    <Link to='/Product'>Our Product</Link>
-                    <Link to='/Delivery'>Delivery</Link>
-                    <Link to='/Say'>Comments</Link>
-                    <Link to='/Footer'>Feedback</Link>
+        <div className="w-[100%] h-[100px  pb-10 bg-[#F6EBDA] sm:w-full lg:w-full">
+            <div className="flex items-center justify-center pt-11 gap-96 sm:gap-0  sm:justify-start lg:justify-center lg:gap-[50px]">
+                <img src={Logo} alt="" className="sm:pl-[40px] lg:pl-[0]"/>
+                <div className="flex gap-16 sm:gap-0 sm:hidden lg:block ">
+                    <Link to='/' className="lg:mx-2">Home</Link>
+                    <Link to='/About' className="lg:mx-2">About us</Link>
+                    <Link to='/Product' className="lg:mx-2">Our Product</Link>
+                    <Link to='/Delivery' className="lg:mx-2">Delivery</Link>
+                    <Link to='/Say' className="lg:mx-2">Comments</Link>
+                    <Link to='/Footer' className="lg:mx-2">Feedback</Link>
                 </div>
             </div>
         </div>

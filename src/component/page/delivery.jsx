@@ -1,23 +1,22 @@
 import React from 'react';
 import Cup from "../../assets/coffee-cup 2.png"
-import Truck from "../../assets/food-truck 1.png"
 import About from "./about.jsx";
-import Product from "./product.jsx";
-import Say from "./say.jsx";
+import Cup2 from "../../assets/image.png";
+import Cup3 from "../../assets/food-truck 1.png";
 function Delivery(props) {
     return (
         <div>
 
         <div className="w-[100%] h-auto p-20">
-            <h1 className="text-[32px] tracking-[4px] mb-10">How to use delivery <span>service</span></h1>
-            <div className="cards flex justify-center items-center gap-16">
+            <h1 className="text-[32px] tracking-[4px] mb-10 sm:w-[100%]">How to use delivery <span>service</span></h1>
+            <div className="cards flex justify-center items-center gap-16 sm:flex-col">
                 <div className="card w-[370px] h-[290px]  flex flex-col justify-center items-center gap-[10px]">
-                    <img src={Cup} alt="" className="w-[159px]"/>
+                    <img src={Cup2} alt="" className="w-[159px]"/>
                     <h4 className="text-[24px] font-medium">choose your coffee</h4>
                     <p className="text-[18px]">there are 20+ coffees for you</p>
                 </div>
                 <div className="card w-[370px] h-[290px]  flex flex-col justify-center items-center gap-[10px]">
-                    <img src={Truck} alt="" className="w-[159px]"/>
+                    <img src={Cup3} alt=""/>
                     <h4 className="text-[24px] font-medium">we delivery it to you</h4>
                     <p className="text-[18px]">Choose delivery service</p>
                 </div>

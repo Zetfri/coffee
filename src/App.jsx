@@ -13,7 +13,11 @@ import Coffee2 from "./component/coffee2.jsx"
 import Aos from"aos"
 import Coffee1 from "./component/coffee1.jsx";
 import Menu from "./component/menu.jsx"
-import Milk from "./component/milk.js"
+import Milk from "./component/Milk.jsx"
+import Icecream from "./component/icecream.jsx";
+import Cappucino from "./component/cappucino.jsx"
+import Moccacinno from "./component/moccacinno.jsx";
+import Waffle from "./component/waffle.jsx";
 function App(props) {
     useEffect(() => {
         Aos.init()
@@ -32,7 +36,11 @@ function App(props) {
                     <Route path="/Coffe1" element={<Coffe1/>} />
                     <Route path="/Coffee2" element={<Coffee2 />} />
                     <Route path="/Menu" element={<Menu />} />
-                    <Route
+                    <Route path="/Milk" element={<Milk />} />
+                    <Route path="/Icecream" element={<Icecream/>} />
+                    <Route path="/Cappucino" element={<Cappucino/>} />
+                    <Route path="/Moccacinno" element={<Moccacinno/>} />
+                    <Route path="/Waffle" element={<Waffle/>} />
             </Routes>
 
         </div>

@@ -8,14 +8,14 @@ function Say(props) {
         <div>
 
 
-        <div className="w-[100%] h-screen bg-cover bg-center  flex justify-center items-center py-28">
+        <div className="w-[100%] h-screen  flex justify-center py-20 sm:h-auto">
 
-        <div className="">
+        <div className="flex justify-center items-center gap-[34px] sm:flex-col">
             <div className="left flex flex-col justify-start  gap-[10px]">
-                <h1 className="text-[32px] tracking-normal">What they say about us</h1>
-                <p className="text-[18px] text-[#7E7D7A] w-[300px]">We always provide the best service and always maintain the quality of coffee</p>
+                <h1 className="text-[32px] tracking-normal sm:w-[200px]">What they say about us</h1>
+                <p className="text-[18px] text-[#7E7D7A] w-[300px] sm:w-[200px]">We always provide the best service and always maintain the quality of coffee</p>
             </div>
-            <div className="right flex transform translate-x-[80px] justify-end items-center gap-[10px]">
+            <div className="right flex transform translate-x-[0px] justify-end items-center gap-[10px] sm:flex-col sm:gap-10">
                 <img src={Card} alt="" className="w-[257px] h-[280px]"/>
                 <img src={Card2} alt="" className="w-[257px] h-[280px]"/>
                 <img src={Card3} alt="" className="w-[257px] h-[280px]"/>
