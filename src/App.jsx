@@ -18,7 +18,8 @@ import Icecream from "./component/icecream.jsx";
 import Cappucino from "./component/cappucino.jsx"
 import Moccacinno from "./component/moccacinno.jsx";
 import Waffle from "./component/waffle.jsx";
-function App(props) {
+import Drawer from "./component/page/drawer.jsx";
+function App() {
     useEffect(() => {
         Aos.init()
     }, []);
@@ -41,6 +42,7 @@ function App(props) {
                     <Route path="/Cappucino" element={<Cappucino/>} />
                     <Route path="/Moccacinno" element={<Moccacinno/>} />
                     <Route path="/Waffle" element={<Waffle/>} />
+                    <Route path="Drawer" element={<Drawer/>} />
             </Routes>
 
         </div>

@@ -15,11 +15,11 @@ function Product(props) {
         <div>
 
 
-            <div className="w-[100%] h-screen p-16 mb-[400px] sm:mt-[140px] sm:h-auto sm:mb-[0px]">
+            <div className="w-[100%] h-screen p-16 mb-[400px] sm:mt-[400px] sm:h-auto sm:mb-[0px] lg:mb-[20px]">
                 <h1 className="text-[32px] mb-[50px]">Special menu for you</h1>
-                <div className="cards flex justify-center items-center gap-16 flex-wrap">
+                <div className="cards flex justify-center items-center gap-16 flex-wrap  ">
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] ">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%]  lg:w-[45%]" data-aos="fade-up">
                         <img src={Sandwich} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[150px] sm:gap-20">
                             <h4 className="text-[24px] font-medium">Sandwich</h4>
@@ -32,33 +32,33 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px]">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
                         <img src={Milk} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[150px] sm:gap-20">
                             <h4 className="text-[24px] font-medium">Hot Milk</h4>
                             <h4 className="text-[24px] font-medium">12 K</h4>
                         </div>
-                        <div className="bottom flex justify-center items-center gap-[130px] sm:gap-14">
+                        <div className="bottom flex justify-center items-center gap-[140px] sm:gap-14">
                             <p className="text-[#7E7D7A]">Hot Milk with less <br/> sugar</p>
                             <Link to='/Milk'><img src={Cart} alt=""/></Link>
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px]">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
                         <img src={Ice} alt="" className=" rounded-[10px]"/>
-                        <div className="top flex  gap-[80px] sm:gap-2">
+                        <div className="top flex  gap-[80px] sm:gap-2 lg:gap-12">
                             <h4 className="text-[24px] font-medium sm:w-[180px]">Coffee Ice Cream</h4>
                             <h4 className="text-[24px] font-medium">12 K</h4>
                         </div>
-                        <div className="bottom flex justify-center items-center gap-[130px] sm:gap-14">
+                        <div className="bottom flex justify-center items-center gap-[130px] sm:gap-14 lg:gap-20">
                             <p className="text-[#7E7D7A]">Coffee with ice cream <br/> vanilla</p>
                             <Link to='/Icecream'><img src={Cart} alt=""/></Link>
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px]">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
                         <img src={Capuchino} alt="" className=" rounded-[10px]"/>
-                        <div className="top flex  gap-[140px] sm:gap-14">
+                        <div className="top flex  gap-[140px] sm:gap-16 lg:gap-[120px]">
                             <h4 className="text-[24px] font-medium">Cappucino</h4>
                             <h4 className="text-[24px] font-medium">12 K</h4>
                         </div>
@@ -70,9 +70,9 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px]">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
                         <img src={Moccacino} alt="" className=" rounded-[10px]"/>
-                        <div className="top flex  gap-[130px] sm:gap-14">
+                        <div className="top flex  gap-[130px] sm:gap-14 lg:gap-[100px]">
                             <h4 className="text-[24px] font-medium">Moccacinno</h4>
                             <h4 className="text-[24px] font-medium">12 K</h4>
                         </div>
@@ -82,13 +82,13 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px]">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
                         <img src={Waffle} alt="" className=" rounded-[10px]"/>
-                        <div className="top flex  gap-[80px] sm:gap-6">
+                        <div className="top flex  gap-[80px] sm:gap-4 lg:gap-16">
                             <h4 className="text-[24px] font-medium">Waffle Ice Crem</h4>
                             <h4 className="text-[24px] font-medium">12 K</h4>
                         </div>
-                        <div className="bottom flex justify-center items-center gap-[130px] sm:gap-14">
+                        <div className="bottom flex justify-center items-center gap-[130px] sm:gap-14 lg:gap-[100px]">
                             <p className="text-[#7E7D7A]">Wafle with Ice cream</p>
                             <Link to='/Waffle'>
                                 <img src={Cart} alt=""/>
