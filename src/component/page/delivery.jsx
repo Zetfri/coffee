@@ -11,17 +11,17 @@ function Delivery(props) {
             <h1 className="text-[32px] tracking-[4px] mb-10 sm:w-[100%]">How to use delivery <span>service</span></h1>
             <div className="cards flex justify-center items-center gap-16 sm:flex-col">
                 <div className="card w-[370px] h-[290px]  flex flex-col justify-center items-center gap-[10px] lg:px-2">
-                    <img src={Cup2} alt="" className="w-[159px]" data-aos="fade-right"/>
+                    <img src={Cup2} alt="" className="w-[159px]" data-aos="fade-right"      data-aos-delay="200"/>
                     <h4 className="text-[24px] font-medium">choose your coffee</h4>
                     <p className="text-[18px]">there are 20+ coffees for you</p>
                 </div>
                 <div className="card w-[370px] h-[290px]  flex flex-col justify-center items-center gap-[10px] lg:px-2">
-                    <img src={Cup3} alt="" data-aos="fade-right"/>
+                    <img src={Cup3} alt="" data-aos="fade-right"      data-aos-delay="300"/>
                     <h4 className="text-[24px] font-medium">we delivery it to you</h4>
                     <p className="text-[18px]">Choose delivery service</p>
                 </div>
                 <div className="card w-[370px] h-[290px]  flex flex-col justify-center items-center gap-[10px] lg:px-2">
-                    <img src={Cup} alt="" className="w-[159px]" data-aos="fade-right"/>
+                    <img src={Cup} alt="" className="w-[159px]" data-aos="fade-right"      data-aos-delay="400"/>
                     <h4 className="text-[24px] font-medium">Enjoy your coffee</h4>
                     <p className="text-[18px]">Choose delivery service</p>
                 </div>

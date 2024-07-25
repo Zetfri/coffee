@@ -19,7 +19,7 @@ function Product(props) {
                 <h1 className="text-[32px] mb-[50px]">Special menu for you</h1>
                 <div className="cards flex justify-center items-center gap-16 flex-wrap  ">
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%]  lg:w-[45%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%]  lg:w-[45%]" data-aos="fade-up"      data-aos-delay="200">
                         <img src={Sandwich} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[150px] sm:gap-20">
                             <h4 className="text-[24px] font-medium">Sandwich</h4>
@@ -32,7 +32,7 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up"      data-aos-delay="300">
                         <img src={Milk} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[150px] sm:gap-20">
                             <h4 className="text-[24px] font-medium">Hot Milk</h4>
@@ -44,7 +44,7 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up"      data-aos-delay="400">
                         <img src={Ice} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[80px] sm:gap-2 lg:gap-12">
                             <h4 className="text-[24px] font-medium sm:w-[180px]">Coffee Ice Cream</h4>
@@ -56,7 +56,7 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up"      data-aos-delay="200">
                         <img src={Capuchino} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[140px] sm:gap-16 lg:gap-[120px]">
                             <h4 className="text-[24px] font-medium">Cappucino</h4>
@@ -70,7 +70,7 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up" data-aos-delay="300">
                         <img src={Moccacino} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[130px] sm:gap-14 lg:gap-[100px]">
                             <h4 className="text-[24px] font-medium">Moccacinno</h4>
@@ -82,7 +82,7 @@ function Product(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up">
+                        className="card w-[356px] h-[385px] shadow-lg rounded-[10px] flex flex-col justify-center items-center gap-[10px] sm:w-[100%] lg:w-[45%] xl:w-[30%]" data-aos="fade-up" data-aos-delay="400">
                         <img src={Waffle} alt="" className=" rounded-[10px]"/>
                         <div className="top flex  gap-[80px] sm:gap-4 lg:gap-16">
                             <h4 className="text-[24px] font-medium">Waffle Ice Crem</h4>

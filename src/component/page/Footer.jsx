@@ -15,21 +15,21 @@ function Footer(props) {
             <div className="right flex  flex-col gap-[20px] text-white pt-10 sm:px-[12px] lg:px-[60px]  ">
                 <div className="flex gap-8 sm:flex-col sm:gap-8 lg:gap-8 xl:gap-0">
                     <Link to='/' className="text-white text-[18px]" data-aos="fade-down">Home</Link>
-                    <Link to='/About' className="text-white text-[18px]" data-aos="fade-down">About us</Link>
-                    <Link to='/Product' className="text-white text-[18px]" data-aos="fade-down">Our Product</Link>
-                    <Link to='/Delivery' className="text-white text-[20px]" data-aos="fade-down">Delivery</Link>
-                    <Link to='/Say' className="text-white text-[18px]" data-aos="fade-down">Comments</Link>
-                    <Link to='/Footer' className="text-white text-[18px]" data-aos="fade-down">Feedback</Link>
+                    <Link to='/About' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="200">About us</Link>
+                    <Link to='/Product' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="300">Our Product</Link>
+                    <Link to='/Delivery' className="text-white text-[20px]" data-aos="fade-down" data-aos-delay="400">Delivery</Link>
+                    <Link to='/Say' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="400">Comments</Link>
+                    <Link to='/Footer' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="500">Feedback</Link>
                 </div>
 
 
 
                 <div className=" mt-[50px] flex  gap-[50px] sm:flex-wrap lg:flex-wrap">
-                    <div className="left w-[180px] flex flex-col gap-[10px]" data-aos="fade-right">
+                    <div className="left w-[180px] flex flex-col gap-[10px]" data-aos="fade-right" data-aos-delay="200">
                         <h1 className="text-[22px] text-white">Address:</h1>
                         <p className="text-[18px] text-white">170 Mukimi Street, Tashkent, Uzbekistan</p>
                     </div>
-                    <div className="right flex flex-col gap-[10px] text-white" data-aos="fade-right">
+                    <div className="right flex flex-col gap-[10px] text-white" data-aos="fade-right" data-aos-delay="300">
                         <h1 className="text-[22px]">Working ours:</h1>
                         <div className="text-[18px] text-white flex flex-col gap-[2px]">
                             <div>
@@ -41,7 +41,7 @@ function Footer(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="bottom text-white flex flex-col gap-[10px]" data-aos="fade-right">
+                    <div className="bottom text-white flex flex-col gap-[10px]" data-aos="fade-right" data-aos-delay="400">
                         <h1 className="text-[22px]">Phone:</h1>
                         <div className={" w-[100px] gap-1  flex flex-col"}>
                             <a href="tel:+998331123266">+998331123266</a>

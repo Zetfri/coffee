@@ -16,9 +16,9 @@ function Say(props) {
                 <p className="text-[18px] text-[#7E7D7A] w-[300px] sm:w-[200px]">We always provide the best service and always maintain the quality of coffee</p>
             </div>
             <div className="right flex transform translate-x-[0px] justify-end items-center gap-[10px] sm:flex-col sm:gap-10">
-                <img src={Card} alt="" className="w-[257px] h-[280px]" data-aos="fade-right"/>
-                <img src={Card2} alt="" className="w-[257px] h-[280px]" data-aos="fade-right"/>
-                <img src={Card3} alt="" className="w-[257px] h-[280px]" data-aos="fade-right"/>
+                <img src={Card} alt="" className="w-[257px] h-[280px]" data-aos="fade-right" data-aos-delay="200"/>
+                <img src={Card2} alt="" className="w-[257px] h-[280px]" data-aos="fade-right" data-aos-delay="300"/>
+                <img src={Card3} alt="" className="w-[257px] h-[280px]" data-aos="fade-right" data-aos-delay="400"/>
             </div>
         </div>
 

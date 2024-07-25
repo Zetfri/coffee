@@ -14,7 +14,7 @@ import {Link} from "react-router-dom";
 function Home(props) {
     return (<div className="w-full h-[120vh] bg-[#F6EBDA]" >
             <div className="w-full h-screen flex sm:h-[300px] lg:h-auto">
-                <div className="w-1/2 h-screen flex  justify-center items-start pl-52 flex-col gap-8 mt-[-100px] sm:pl-[20px] lg:mt-[-250px] lg:pl-[40px] sm:mt-[-150px] "data-aos="fade-right"
+                <div className="w-1/2 h-screen flex  justify-center items-start pl-52 flex-col gap-8 mt-[-100px] sm:pl-[20px] lg:mt-[-250px] lg:pl-[40px] sm:mt-[-150px] "data-aos="fade-right"      data-aos-delay="200"
                      data-aos-duration="500"            data-aos-offset="500"
                      data-aos-easing="ease-in-sine">
                     <h2 className={"text-[50px] sm:text-[30px] sm:w-[280px] w-[500px]"}>Enjoy your <span
@@ -28,7 +28,7 @@ function Home(props) {
                     </button>
                 </div>
                 <div className="w-[50%] h-auto flex justify-end  border pt-[60px] lg:mt-[-240px]">
-                    <img src={Coffee} alt="" className="w-[465px] h-[346px]   mr-28 sm:hidden lg:block lg:mr-[-20px]" data-aos="fade-right"
+                    <img src={Coffee} alt="" className="w-[465px] h-[346px]   mr-28 sm:hidden lg:block lg:mr-[-20px]" data-aos="fade-right"      data-aos-delay="400"
                          data-aos-offset="100" data-aos-duration="500"
                          data-aos-easing="ease-in-sine"/>
                 </div>
@@ -37,7 +37,7 @@ function Home(props) {
             <div
                 className={"w-[95%] h-[325px] mt-[-20px] rounded-[55px] bg-[#F9D9AA] flex justify-center pb-20 mx-auto gap-16 sm:flex-wrap sm:mt-[400px] sm:h-auto sm:gap-[200px] sm:bg-transparent sm:justify-center sm:items-center lg:flex-wrap lg:h-auto lg:gap-[20px] lg:mt-[00px] "}>
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%] "} data-aos="fade-down">
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%] "} data-aos="fade-down"      data-aos-delay="200">
                     <img src={Cup} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between"}>
@@ -59,7 +59,7 @@ function Home(props) {
                     </div>
                 </div   >
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%]"} data-aos="fade-down">
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%]"} data-aos="fade-down"      data-aos-delay="300">
                     <img src={Coffee2} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between"}>
@@ -80,7 +80,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div
-                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%] "} data-aos="fade-down">
+                    className={"w-[355px] h-[385px] border-[5px] border-[#FDF0DD] flex flex-col gap-3 bg-white p-5 rounded-[10px] mt-[-150px] sm:w-[90%] lg:w-[30%] "} data-aos="fade-down"      data-aos-delay="400">
                     <img src={Coffe1} alt="" className="rounded-[10px]"/>
                     <div>
                         <div className={"flex  px-2 justify-between lg:justify-evenly sm:gap-[70px]"}>
