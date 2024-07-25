@@ -8,7 +8,7 @@ function Say(props) {
         <div>
 
 
-        <div className="w-[100%] h-screen  flex justify-center py-20 sm:h-auto lg:mt-[100px] lg:py-0 lg:px-2 ">
+        <div className="w-[100%] h-screen  flex justify-center py-20 sm:h-auto lg:mt-[100px] lg:py-0 lg:px- ">
 
         <div className="flex justify-center items-center gap-[34px] sm:flex-col lg:flex-col lg:text-center">
             <div className="left flex flex-col justify-start  gap-[10px]">

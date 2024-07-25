@@ -15,7 +15,7 @@ function Product(props) {
         <div>
 
 
-            <div className="w-[100%] h-screen p-16 mb-[400px] sm:mt-[400px] sm:h-auto sm:mb-[0px] lg:mb-[20px]">
+            <div className="w-[100%] h-screen p-16 mb-[400px] sm:mt-[320px] sm:h-auto sm:mb-[0px] lg:mb-[20px]">
                 <h1 className="text-[32px] mb-[50px]">Special menu for you</h1>
                 <div className="cards flex justify-center items-center gap-16 flex-wrap  ">
                     <div

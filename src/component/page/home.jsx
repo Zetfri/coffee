@@ -22,13 +22,15 @@ function Home(props) {
                     <p className={"text-[18px] text-[#7E7D7A] w-[400px] sm:w-[340px]"}>Boost your productivity and build your mood
                         with a glass of coffee in the morning </p>
                     <button
-                        className={"w-[170px] h-[46px] bg-[#2F2105] text-white rounded-[33px] flex items-center justify-center gap-2"}>
+                        className={"w-[170px] h-[46px] bg-[#2F2105] text-white rounded-[33px] flex items-center justify-center gap-2 active:bg-transparent active:border active:border-[#2F2105] active:text-[#2F2105]"}>
                         Order Now
-                        <img src={Cart} alt="" className="mt-1"/>
+                        <Link to='/Product'>
+                            <img src={Cart} alt="" className="mt-1"/>
+                        </Link>
                     </button>
                 </div>
-                <div className="w-[50%] h-auto flex justify-end  border pt-[60px] lg:mt-[-240px]">
-                    <img src={Coffee} alt="" className="w-[465px] h-[346px]   mr-28 sm:hidden lg:block lg:mr-[-20px]" data-aos="fade-right"      data-aos-delay="400"
+                <div className="w-[50%] h-auto flex justify-end   pt-[60px] lg:mt-[40px]">
+                    <img src={Coffee} alt="" className="w-[465px] h-[346px]   mr-28 sm:hidden lg:block lg:mr-[-2px] lg:w-[370px] " data-aos="fade-right"      data-aos-delay="400"
                          data-aos-offset="100" data-aos-duration="500"
                          data-aos-easing="ease-in-sine"/>
                 </div>

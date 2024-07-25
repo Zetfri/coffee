@@ -13,7 +13,7 @@ function Footer(props) {
 
 
             <div className="right flex  flex-col gap-[20px] text-white pt-10 sm:px-[12px] lg:px-[60px]  ">
-                <div className="flex gap-8 sm:flex-col sm:gap-8 lg:gap-8 xl:gap-0">
+                <div className="flex gap-8 sm:flex-col sm:gap-8 lg:gap-8 xl:gap-[24px]">
                     <Link to='/' className="text-white text-[18px]" data-aos="fade-down">Home</Link>
                     <Link to='/About' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="200">About us</Link>
                     <Link to='/Product' className="text-white text-[18px]" data-aos="fade-down" data-aos-delay="300">Our Product</Link>
